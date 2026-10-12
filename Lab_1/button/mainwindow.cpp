@@ -16,8 +16,8 @@ MainWindow::MainWindow(QWidget *parent)
     but = new button (this);
 
     //Иконки
-    QIcon icon_1("D:/Qt_Labs/Lab_1/button/6.png");
-    QIcon icon_2("D:/Qt_Labs/Lab_1/button/7.png");
+    QIcon icon_1(":/6.jpg");
+    QIcon icon_2(":/7.png");
 
     //Иконки внутрь кнопки
     but->setIcons(icon_1, icon_2 );
